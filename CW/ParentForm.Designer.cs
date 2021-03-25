@@ -105,14 +105,15 @@ namespace CW
             // newTestsToolStripMenuItem
             // 
             this.newTestsToolStripMenuItem.Name = "newTestsToolStripMenuItem";
-            this.newTestsToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
+            this.newTestsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.newTestsToolStripMenuItem.Text = "New Tests";
             // 
             // allTestsToolStripMenuItem
             // 
             this.allTestsToolStripMenuItem.Name = "allTestsToolStripMenuItem";
-            this.allTestsToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
+            this.allTestsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.allTestsToolStripMenuItem.Text = "All Tests";
+            this.allTestsToolStripMenuItem.Click += new System.EventHandler(this.allTestsToolStripMenuItem_Click);
             // 
             // helpToolStripMenuItem
             // 

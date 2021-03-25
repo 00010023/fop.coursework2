@@ -118,5 +118,10 @@ namespace CW.DAL
             ts_q3_10023 = question3;
             ts_q3_answer_10023 = question3_answer;
         }
+
+        public override string ToString()
+        {
+            return name;
+        }
     }
 }

@@ -40,5 +40,10 @@ namespace CW
         {
             MyForms.GetForm<ApplicantListForm>().Show();
         }
+
+        private void allTestsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MyForms.GetForm<TestListForm>().Show();
+        }
     }
 }
